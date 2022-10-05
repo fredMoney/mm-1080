@@ -1,51 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-body {
-  background-color: linen;
-}
-
-h1 {
-  color: maroon;
-  margin-left: 40px;
-}
-
-tr:first-child {
-	background-color: yellow;
-}
-
-tr:nth-child(2n) {
-	color: gray;
-}
-/*
-td:nth-child(2n+1) {
-	color: lightgreen;
-}
-*/
-
-.clasamea {
-	color: green;
-}
-
-#paragrafulmeu {
-	color: cyan;
-}
-
-img[alt="*peisaj*"] {
-
-}
-/*
-p::first-line {
-	color: #ff6666;
-}
-*/
-
-td {
-	border-bottom: 2px solid black;
-	border-collapse: collapse;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -79,6 +35,6 @@ td {
 <br>
 
 <p>Good stuff:</p>
-<p>pseudo-atribut, pseudo-element(:nth-child(n)), attr selector, css border</p>
+<p>pseudo-atribut, pseudo-element(:nth-child(n)), attr selector, css border, specificitate</p>
 </body>
 </html>
