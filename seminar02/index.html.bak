@@ -35,6 +35,6 @@
 <br>
 
 <p>Good stuff:</p>
-<p>pseudo-atribut, pseudo-element(:nth-child(n)), attr selector, css border, specificitate</p>
+<p>pseudo-atribut, pseudo-element(:nth-child(n)), attr selector, css border, specificitate, !important</p>
 </body>
 </html>
