@@ -11,11 +11,18 @@ h1 {
   margin-left: 40px;
 }
 
-table, th, td {
-	background-color:lightblue;
-	border: 2px solid;
-	border-collapse: collapse;
+tr:first-child {
+	background-color: yellow;
 }
+
+tr:nth-child(2n) {
+	color: gray;
+}
+/*
+td:nth-child(2n+1) {
+	color: lightgreen;
+}
+*/
 
 .clasamea {
 	color: green;
@@ -24,13 +31,27 @@ table, th, td {
 #paragrafulmeu {
 	color: cyan;
 }
+
+img[alt="*peisaj*"] {
+
+}
+/*
+p::first-line {
+	color: #ff6666;
+}
+*/
+
+td {
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+}
 </style>
 </head>
 <body>
 
 <h1>This is a heading</h1>
-<p class="clasamea">1. This is a paragraph.</p>
-<p id="paragrafulmeu">2. This is a paragraph.</p>
+<p id="paragrafulmeu" class="clasamea">1. This is a paragraph.</p>
+<p id="paragrafulmeu">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 2. This is a paragraph. </p>
 <p>3. This is a paragraph.</p>
 <p class="clasamea">4. This is a paragraph.</p>
 
@@ -55,5 +76,9 @@ table, th, td {
 	</tr>
 </table>
 
+<br>
+
+<p>Good stuff:</p>
+<p>pseudo-atribut, pseudo-element(:nth-child(n)), attr selector, css border</p>
 </body>
 </html>
