@@ -19,7 +19,6 @@ var paused = false;         // paused -> check daca animatia e oprita
 
 function init() {
     window.requestAnimationFrame(draw);
-    document.getElementById("btPlay").setAttribute("disabled", "True");
 }
 
 
