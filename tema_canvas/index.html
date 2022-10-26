@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animatie minge</title>
+        <style>
+            #divCanvas {
+                margin-left: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="divCanvas">
+            <p>Animatie minge:</p>
+            <canvas id="myCanvas" width="600" height="600" style="border:1px solid black"></canvas>
+            <script src="script.js" type="text/javascript"></script>
+            <br>
+            <button id="btPause" onclick="swapState()">Pause</button>
+            <button onclick="resetAnimation()">Reset</button>
+            <p>y_speed = <span id="spanY_speed">not loaded</span>, y = <span id="span_y">not loaded</span></p>
+        </div>
+    </body>
+</html>
