@@ -110,6 +110,4 @@ function pause() {
     paused = true;
 }
 
-window.onload = function() {
-    init();
-}
+window.onload = init();
